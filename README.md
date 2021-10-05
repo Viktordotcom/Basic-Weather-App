@@ -4,6 +4,8 @@
 -Project part of The Odin Project Curriculum
 
 ### External APIs used:
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
 -[website] OpenWeather's API: https://openweathermap.org/api
 -[website] CountryFlags's API: https://www.countryflags.io/
 -[website] Giphy's API: https://developers.giphy.com/docs/api/
