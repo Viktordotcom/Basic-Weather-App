@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <script src="bundle.js" defer></script>
+    <title>Weather App</title>
+  </head>
+  <body>
+    <header>
+      <h2>RealTime Weather</h2>
+    </header>
+    <form action="" novalidate>
+      <span id="search-icon"class="material-icons">search</span>
+      <input
+        type="text"
+        pattern="[aA-zZ\s]+"
+        placeholder="Enter Location Name"
+        required
+      />
+      <button>Search</button>
+    </form>
+    <span class="error" aria-live="polite"></span>
+    <span id="input-error"></span>
+    <section></section>
+    
+  </body>
+</html>
