@@ -9,7 +9,7 @@
 <!-- BLOG-POST-LIST:START -->
 <!-- BLOG-POST-LIST:END -->
 
--[website] OpenWeather's API: https://openweathermap.org/api 
--[website] Flagpedia's API: https://flagpedia.net/download/api 
--[website] Giphy's API: https://developers.giphy.com/docs/api/ 
--[website] Darkmode.js: https://github.com/sandoche/Darkmode.js
+- [ OpenWeather's API ](https://openweathermap.org/api)
+- [Flagpedia's API](https://flagpedia.net/download/api )
+- [Giphy's API](https://developers.giphy.com/docs/api/ )
+- [ Darkmode.js](https://github.com/sandoche/Darkmode.js)
