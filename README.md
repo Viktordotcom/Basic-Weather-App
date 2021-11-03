@@ -10,6 +10,6 @@
 <!-- BLOG-POST-LIST:END -->
 
 - [ OpenWeather's API ](https://openweathermap.org/api)
-- [Flagpedia's API](https://flagpedia.net/download/api )
-- [Giphy's API](https://developers.giphy.com/docs/api/ )
+- [Flagpedia's API](https://flagpedia.net/download/api)
+- [Giphy's API](https://developers.giphy.com/docs/api/)
 - [ Darkmode.js](https://github.com/sandoche/Darkmode.js)
