@@ -44,6 +44,8 @@ async function renderTextualData() {
     const isConvertedTempToFarenheit = convertCelsiusToFarenheit(
       isConvertedTemptoCelsius
     );
+    const countryIconSrc = `${data.sys.country}`.toLowerCase();
+
     mainContainer.setAttribute("class", "main-container");
     titleH.textContent = data.name;
     temperaturePara.textContent = `${isConvertedTemptoCelsius}  °C`;
@@ -53,7 +55,7 @@ async function renderTextualData() {
     tempParaIcon.className = "material-icons";
     tempDescIcon.className = "material-icons";
     tempDetailedDescIcon.className = "material-icons";
-    countryIcon.src = `https://www.countryflags.io/${data.sys.country}/shiny/32.png`;
+    countryIcon.src = `https://flagcdn.com/32x24/${countryIconSrc}.png`;
     toggleTempBtn.textContent = `°F`;
     tempParaIcon.textContent = "thermostat";
     tempDetailedDescIcon.textContent = "info";
@@ -86,8 +88,6 @@ async function renderTextualData() {
         toggleTempBtn.textContent = `°C`;
       }
     });
-
-    
 
     tempContainer.appendChild(temperaturePara);
     tempContainer.appendChild(tempParaIcon);
